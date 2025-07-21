@@ -54,7 +54,7 @@ return {
 
         -- Open the directory explorer in the current working directory
         -- See `:help Oil`
-        vim.keymap.set('n', '<leader>pv', '<CMD>Oil<CR>', { desc = '[P]roject [V]iew' }),
+        vim.keymap.set('n', '<leader>pv', '<CMD>Oil --float<CR>', { desc = '[P]roject [V]iew' }),
       }
     end,
     -- Optional dependencies
