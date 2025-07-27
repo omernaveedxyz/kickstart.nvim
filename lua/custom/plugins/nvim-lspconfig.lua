@@ -208,6 +208,7 @@ return {
         ts_ls = {},
         astro = {},
         tailwindcss = {},
+        jsonls = {},
 
         lua_ls = {
           -- cmd = { ... },
