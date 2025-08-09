@@ -1,11 +1,6 @@
 return {
   {
-    'zbirenbaum/copilot.lua',
-    cmd = 'Copilot',
+    'github/copilot.vim',
     event = 'InsertEnter',
-    opts = {
-      panel = { enabled = false },
-      suggestion = { auto_trigger = true, keymap = { accept = '<Tab>' } },
-    },
   },
 }
